@@ -1,0 +1,25 @@
+:root{
+   --size : 20px;
+}
+
+.circle , .square , .triangle{
+   position: absolute;
+   width: var(--size);
+   height: var(--size);
+}
+
+.circle {
+   background-color: #4500ee;
+   border-radius: 50%;
+}
+.square{
+   background-color: #447700;
+}
+.triangle{
+   box-sizing: border-box;
+   background-color: #dd0055;
+
+   /* border-left: 50px  solid transparent ;
+   border-right: 50px   solid transparent;
+   border-bottom: 50px  solid #dd0055; */
+}
